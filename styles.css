@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.recipe {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recipe-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
