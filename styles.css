@@ -43,4 +43,11 @@ body {
     text-align: center;
     padding: 10px;
 }
-  
+
+/* Header */
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
