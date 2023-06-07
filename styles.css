@@ -1,46 +1,41 @@
-body {
-    font-family: Arial, sans-serif;
+.carousel-item img {
+    width: fit-content !important;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.container {
-    width: 60%;
-    margin: auto;
-    padding: 20px;
-}
-
-.recipe {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.recipe-title {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.recipe-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.recipe-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.carousel.slide {
     background-color: #606C5D;
-    color: black;
-    text-align: center;
-    padding: 10px;
+    padding-top: 30px;
 }
-  
+
+.table {
+    --bs-table-bg: #F7E6C4 !important;
+    box-shadow: 0 4px 10px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.Zubereitung>*{
+    color: #FFF4F4;
+
+}
+
+.rounded {
+    border-radius: 0.5px !important;
+}
+
+.label-container {
+    margin: 20px 50px !important;
+    color: #F1C376;
+}
+
+.row> img {
+    box-shadow: 0 4px 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-item img {
+        max-height: 600px;
+    }
+}
