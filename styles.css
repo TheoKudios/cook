@@ -32,3 +32,15 @@ body {
     height: auto;
     margin-bottom: 20px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #606C5D;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+  
