@@ -51,3 +51,27 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
 }
+
+.navbar-brand {
+    margin-left: 16px;
+}
+
+.navbar-toggler {
+    margin-right: 16px;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.collapse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.btn {
+    margin: 0px 16px 0px 10px;
+}
