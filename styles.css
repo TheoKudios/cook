@@ -52,6 +52,12 @@ body {
     justify-content: space-between;
 }
 
+.navbar-xs-m {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 .navbar-brand {
     margin-left: 16px;
 }
