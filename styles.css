@@ -39,3 +39,46 @@
         max-height: 600px;
     }
 }
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F7E6C4;
+    padding: 30px 0;
+    color: #606C5D;
+}
+
+#about h2 {
+    margin-bottom: 10px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 3rem; /
+}
+
+
+#about p {
+    max-width: 800px;
+    line-height: 1.6;
+    margin: 0 auto 10px auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.25rem;
+}
+
+footer {
+    background-color: #606C5D;
+    color: #F1C376;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
