@@ -1,5 +1,36 @@
-body {
-  font-family: Arial, sans-serif;
+.carousel-item img {
+  width: fit-content !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel.slide {
+  background-color: #606c5d;
+  padding-top: 30px;
+}
+
+.table {
+  --bs-table-bg: #f7e6c4 !important;
+  box-shadow: 0 4px 10px;
+  font-family: "Delicious Handrawn", cursive;
+}
+.Zubereitung > * {
+  color: #fff4f4;
+}
+
+.rounded {
+  border-radius: 0.5px !important;
+}
+
+.label-container {
+  margin: 20px 50px !important;
+  color: #f1c376;
+}
+
+.row > img {
+  box-shadow: 0 4px 10px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .container {
@@ -43,28 +74,3 @@ body {
   text-align: center;
   padding: 10px;
 }
-
-/* Ali */
-.display {
-  font-size: 35px;
-}
-
-.pricing-text {
-  text-align: center !important;
-}
-
-.price-color {
-  color: #fff !important;
-  background-color: #606c5d !important;
-}
-
-.border-div {
-  --bs-border-opacity: 1;
-  border-color: #606c5d !important;
-}
-
-button {
-  background-color: #f1c376;
-}
-
-/* End Ali */
