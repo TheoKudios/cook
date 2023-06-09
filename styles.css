@@ -1,46 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    width: 60%;
-    margin: auto;
-    padding: 20px;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
 }
 
 .recipe {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .recipe-title {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .recipe-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
 .recipe-image {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #606C5D;
-    color: black;
-    text-align: center;
-    padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #606c5d;
+  color: black;
+  text-align: center;
+  padding: 10px;
 }
-  
+
+/* Ali */
+.display {
+  font-size: 35px;
+}
+
+.pricing-text {
+  text-align: center !important;
+}
+
+.price-color {
+  color: #fff !important;
+  background-color: #606c5d !important;
+}
+
+.border-div {
+  --bs-border-opacity: 1;
+  border-color: #606c5d !important;
+}
+
+button {
+  background-color: #f1c376;
+}
+
+/* End Ali */
