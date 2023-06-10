@@ -1,8 +1,46 @@
-/* allgemein */
-
 /* navigation */
 
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.navbar-xs-m {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-left: 16px;
+}
+
+.navbar-toggler {
+    margin-right: 16px;
+}
+
+.form-inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.collapse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.btn {
+    margin: 0px 16px 0px 10px;
+}
+
 /* carousel */
+
+#recipes {
+  margin-top: 60px;
+}
 
 .carousel-item img {
   width: fit-content !important;
@@ -22,7 +60,7 @@
 }
 .Zubereitung>*{
   color: #FFF4F4;
-
+  margin-bottom: 50px;
 }
 
 .rounded {
@@ -108,17 +146,16 @@ button {
 /* footer */
 
 footer {
-  background-color: #606C5D;
-  color: #F1C376;
+  background-color: #606C5D !important;
+  color: #F1C376 !important;
   padding: 20px 0;
 }
 
-footer .container {
+footer .container div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 footer p {
   margin: 0;
 }
