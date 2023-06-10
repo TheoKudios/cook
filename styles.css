@@ -6,7 +6,7 @@
 
 .carousel.slide {
     background-color: #606C5D;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .table {
@@ -32,6 +32,14 @@
     box-shadow: 0 4px 10px;
     padding-left: 0 !important;
     padding-right: 0 !important;
+}
+.image-row{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.carousel-indicators {
+    margin-bottom: 0 !important;
 }
 
 @media screen and (min-width: 992px) {
