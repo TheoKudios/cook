@@ -38,6 +38,10 @@
 
 /* carousel */
 
+#recipes {
+  margin-top: 60px;
+}
+
 .carousel-item img {
   width: fit-content !important;
   margin-right: auto;
@@ -56,6 +60,7 @@
 }
 .Zubereitung>*{
   color: #FFF4F4;
+  margin-bottom: 50px;
 }
 
 .rounded {
@@ -76,6 +81,8 @@
 @media screen and (min-width: 992px) {
   .carousel-item img {
       max-height: 600px;
+  }
+}
 
 /* preise */
 
@@ -136,7 +143,7 @@ footer {
   padding: 20px 0;
 }
 
-footer .container {
+footer .container div {
   display: flex;
   justify-content: space-between;
   align-items: center;
